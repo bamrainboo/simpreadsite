@@ -5,7 +5,7 @@
             "url": "http://*.marxists.org/chinese/*/*.htm",
             "title": "[[{$('header.title h1').text()}]]",
             "desc": "",
-            "include":"<sr-rd-dom style="display:none;">",
+            "include": "[[{$('body').text()}]]",
             "exclude": []
         }
     ]
