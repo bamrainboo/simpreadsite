@@ -1,0 +1,12 @@
+{
+    "sites": [
+        {
+            "name": "marxists.org",
+            "url": "http://*.marxists.org/chinese/*/*.htm",
+            "title": "[[{$('header.title h1').text()}]]",
+            "desc": "",
+            "include": "[[{(()=>{let html=''; html+=`<p>${$('.title1').text()}</p>`; html+=`<p>${$('.date').text()}</p>`; html+=`<h3>${$('h3[style=\"text-align: center\"]').text()}</h3>`; html+=`<p>${$('p[align=\"center\"]').text()}</p>`; return html})()}]]",
+            "exclude": []
+        }
+    ]
+}
