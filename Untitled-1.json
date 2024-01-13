@@ -5,16 +5,7 @@
             "url": "http://*.marxists.org/chinese/*/*.htm",
             "title": "[[{$('header.title h1').text()}]]",
             "desc": "",
-            "include": "[[{(() => {
-              let html = '';
-              html += `<p>${$('.title1').text()}</p>`;
-              html += `<p>${$('.date').text()}</p>`;
-              html += `<h3>${$('h3[style="text-align: center"]').text()}</h3>`;
-              html += `<p>${$('p[align="center"]').text()}</p>`;
-              // Additional elements extracted here
-              html += `<p>${$("Your jQuery selector for the desired element").text()}</p>`;
-              return html;
-            })()}]]",
+            "include":"<sr-rd-dom style="display:none;">"
             "exclude": []
         }
     ]
